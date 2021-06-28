@@ -50,5 +50,19 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  clickMe() {
+    this.setData({
+      motto: "你点击了button"
+    })
+  },
+  getUserLocation() {
+    wx.getLocation({
+      type: 'wgs84',
+      success: (res) => {
+        var latitude = res.latitude; // 纬度
+        var longitude = res.longitude; // 经度
+      }
+    })
   }
 })
