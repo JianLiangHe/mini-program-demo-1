@@ -64,5 +64,12 @@ Page({
         var longitude = res.longitude; // 经度
       }
     })
+  },
+  scanCode() {
+    wx.scanCode({
+      success: (res) => {
+        console.log(res);
+      }
+    })
   }
 })

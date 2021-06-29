@@ -1,0 +1,12 @@
+<!-- three.wxml -->
+<view class="container">
+  <view>
+    <text>欢迎来到第三个页面</text>
+  </view>
+  <view>
+    <text>{{msg}}</text>
+  </view>
+  <view>
+    <input model:input="{{inputValue}}" />
+  </view>
+</view>

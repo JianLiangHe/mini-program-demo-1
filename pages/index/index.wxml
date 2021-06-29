@@ -19,4 +19,10 @@
   <view>
     <button bindtap="getUserLocation">点击获取地址信息</button>
   </view>
+  <view>
+    <button bindtap="scanCode">调用微信扫一扫</button>
+  </view>
+  <view>
+    <button>跳转到第三个页面</button>
+  </view>
 </view>
