@@ -5,5 +5,8 @@ Page({
   },
   onLoad() {
     console.log("three onLoad...");
+  },
+  coverImageLoad() {
+    console.log("图片加载成功");
   }
 })

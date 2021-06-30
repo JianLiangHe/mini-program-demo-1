@@ -9,4 +9,28 @@
   <view>
     <input model:input="{{inputValue}}" />
   </view>
+  <view>
+    <tagname property="value">
+      aa
+    </tagname>
+  </view>
+  <view>
+    <cover-image src="https://upload-images.jianshu.io/upload_images/11349019-003cd6838e77193a.png" bindload="coverImageLoad"></cover-image>
+  </view>
+  <view>
+    <map>
+      <cover-view style="width: 50rpx; height: 50rpx; background-color: red;">
+        
+      </cover-view>
+    </map>
+  </view>
+  <view>
+    <view>match-media</view>
+    <match-media min-width="300" max-height="600">
+      <view>当页面300~500px之间时展示这里</view>
+    </match-media>
+    <match-media min-height="400" orientation="landscape">
+      <view>当页面高度不小于400px 且屏幕方向为纵向时展示这里</view>
+    </match-media>
+  </view>
 </view>
